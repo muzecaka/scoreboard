@@ -1,0 +1,31 @@
+<!doctype html >
+<html>
+  <title> Scoreboard Project 3</title>
+  <link rel="stylesheet" href="project3b.css">
+</html>
+<body>
+  <div class="main-container">
+    <div class="container">
+      <div>
+        <h3 id="home"> HOME </h3>
+        <h1 id="home-el">0</h1>
+        <button onclick="homeAdd1()"> +1 </button>
+        <button onclick="homeAdd2()"> +2 </button>
+        <button onclick="homeAdd3()"> +3 </button>
+      </div>
+      <div>
+        <h3 id="guest"> GUEST </h3>
+        <h1 id="guest-el">0</h1>
+        <button onclick="guestAdd1()"> +1 </button>
+        <button onclick="guestAdd2()"> +2 </button>
+        <button onclick="guestAdd3()"> +3 </button>
+      </div>
+    </div>
+    <div>
+      <button onclick="newGame()" > New Game </button>
+      <button onclick="reset()" > Reset </button>
+    </div>
+    <h1 id="game-score"> Game Scoreboard </h1>
+  </div>
+  <script src="project3b.js"></script>
+</body>

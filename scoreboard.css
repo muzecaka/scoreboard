@@ -1,0 +1,79 @@
+body {
+  margin:0;
+  margin-top: 100px;
+  background: skyblue;
+  text-align: center;
+}
+
+h1, h2, h3, h4, p {
+  text-shadow: 0 0 3px black;
+}
+
+.main-container {
+  width: 400px;
+  height: 600px;
+  border: 3px solid white;
+  border-radius: 10px;
+  background: #1d3557;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 350px;
+  border: 3px solid grey;
+  border-radius: 10px;
+  background: #1d3557;
+  height: 300px;
+  margin: 20px auto;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  
+  
+}
+
+#home-el {
+  width: 140px;
+  height: 100px;
+  background: black;
+  color:red;
+  margin-top: 5px;
+  
+}
+
+#guest-el {
+  width: 140px;
+  height: 100px;
+  background: black;
+  color:red;
+  margin-top: 5px;
+  
+  
+}
+
+button {
+  background: none;
+  color: white ;
+  border: 1px solid white ;
+  border-radius: 5px;
+  padding:10px 10px ;
+  font-weight: bold;
+  
+}
+
+#home {
+  margin-bottom: 10px;
+}
+
+#guest {
+  margin-bottom: 10px;
+}
+
+#game-score {
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 0 0 1px white;
+  
+}
